@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://aandronic95.github.io/salon-landing/noir/sitemap.xml
