@@ -1,11 +1,16 @@
 {
   "site": "https://salon.devhub.md/",
-  "name": "Site-uri pentru saloane de frumusețe (Agendă Plină)",
+  "name": "salon.devhub.md — site-uri pentru saloane de frumusețe (Agendă Plină)",
   "store": "https://stan.store/devhubmd",
   "languages": [
     "ro",
     "ru"
   ],
+  "bonus": {
+    "ro": "Programări online pe rezervaora.md, configurate și legate de site gratuit, la orice site cumpărat. Starter gratuit pentru totdeauna (1 specialist).",
+    "ru": "Онлайн-запись на rezervaora.md, настроим и подключим к сайту бесплатно для любого купленного сайта. Starter бесплатно навсегда (1 специалист).",
+    "url": "https://rezervaora.md"
+  },
   "themes": [
     {
       "id": "nude",
