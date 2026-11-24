@@ -1,0 +1,91 @@
+{
+  "site": "https://salon.devhub.md/",
+  "name": "Site-uri pentru saloane de frumusețe (Agendă Plină)",
+  "store": "https://stan.store/devhubmd",
+  "languages": [
+    "ro",
+    "ru"
+  ],
+  "themes": [
+    {
+      "id": "nude",
+      "name": "Editorial nude",
+      "category": "par",
+      "niche": {
+        "ro": "Coafură",
+        "ru": "Причёски"
+      },
+      "demo": {
+        "ro": "https://salon.devhub.md/nude/",
+        "ru": "https://salon.devhub.md/nude/ru/"
+      },
+      "screenshot": "https://salon.devhub.md/shots/nude-desktop.jpg",
+      "buy": "https://stan.store/devhubmd/p/site-pentru-salon-de-coafur--editorial-nude",
+      "price_usd": 49
+    },
+    {
+      "id": "noir",
+      "name": "Noir barber",
+      "category": "barber",
+      "niche": {
+        "ro": "Barbershop",
+        "ru": "Барбершоп"
+      },
+      "demo": {
+        "ro": "https://salon.devhub.md/noir/",
+        "ru": "https://salon.devhub.md/noir/ru/"
+      },
+      "screenshot": "https://salon.devhub.md/shots/noir-desktop.jpg",
+      "buy": "https://stan.store/devhubmd/p/site-pentru-frizerie--noir-barber",
+      "price_usd": 49
+    },
+    {
+      "id": "pop",
+      "name": "Color pop",
+      "category": "unghii",
+      "niche": {
+        "ro": "Unghii",
+        "ru": "Ногти"
+      },
+      "demo": {
+        "ro": "https://salon.devhub.md/pop/",
+        "ru": "https://salon.devhub.md/pop/ru/"
+      },
+      "screenshot": "https://salon.devhub.md/shots/pop-desktop.jpg",
+      "buy": "https://stan.store/devhubmd/p/site-pentru-studio-de-unghii--color-pop",
+      "price_usd": 49
+    },
+    {
+      "id": "glam",
+      "name": "Bordo glam",
+      "category": "makeup",
+      "niche": {
+        "ro": "Make-up",
+        "ru": "Макияж"
+      },
+      "demo": {
+        "ro": "https://salon.devhub.md/glam/",
+        "ru": "https://salon.devhub.md/glam/ru/"
+      },
+      "screenshot": "https://salon.devhub.md/shots/glam-desktop.jpg",
+      "buy": "https://stan.store/devhubmd/p/site-pentru-makeup-i-mirese--bordo-glam",
+      "price_usd": 49
+    },
+    {
+      "id": "lash",
+      "name": "Soft lash",
+      "category": "gene",
+      "niche": {
+        "ro": "Gene și sprâncene",
+        "ru": "Ресницы и брови"
+      },
+      "demo": {
+        "ro": "https://salon.devhub.md/lash/",
+        "ru": "https://salon.devhub.md/lash/ru/"
+      },
+      "screenshot": "https://salon.devhub.md/shots/lash-desktop.jpg",
+      "buy": "https://stan.store/devhubmd",
+      "price_usd": null
+    }
+  ]
+}
