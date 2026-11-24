@@ -6,7 +6,7 @@
     { id: 'noir', name: 'Noir barber', ro: 'Barbershop', ru: 'Барбершоп', buy: STORE + '/p/site-pentru-frizerie--noir-barber' },
     { id: 'pop', name: 'Color pop', ro: 'Unghii', ru: 'Ногти', buy: STORE + '/p/site-pentru-studio-de-unghii--color-pop' },
     { id: 'glam', name: 'Bordo glam', ro: 'Make-up', ru: 'Макияж', buy: STORE + '/p/site-pentru-makeup-i-mirese--bordo-glam' },
-    { id: 'lash', name: 'Soft lash', ro: 'Gene și sprâncene', ru: 'Ресницы и брови', buy: STORE }
+    { id: 'lash', name: 'Soft lash', ro: 'Gene și sprâncene', ru: 'Ресницы и брови', buy: STORE + '/p/site-pentru-gene-i-sprncene--soft-lash' }
   ];
   var T = {
     ro: { all: 'Toate temele', demo: 'Demo', buy: 'Cumpără acest site', buyShort: 'Cumpără', wm: 'DEMO · Agendă Plină', nav: 'Alte teme demo' },

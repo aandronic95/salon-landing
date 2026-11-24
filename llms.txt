@@ -12,7 +12,7 @@
 - [Noir barber — Barbershop](https://salon.devhub.md/noir/): Site pentru frizerie și barbershop: demo Noir barber. Versiune rusă: https://salon.devhub.md/noir/ru/. Preț șablon: $49. Cumpără: https://stan.store/devhubmd/p/site-pentru-frizerie--noir-barber
 - [Color pop — Unghii](https://salon.devhub.md/pop/): Site pentru studio de unghii: demo Color pop. Versiune rusă: https://salon.devhub.md/pop/ru/. Preț șablon: $49. Cumpără: https://stan.store/devhubmd/p/site-pentru-studio-de-unghii--color-pop
 - [Bordo glam — Make-up](https://salon.devhub.md/glam/): Site pentru make-up artist și mirese: demo Bordo glam. Versiune rusă: https://salon.devhub.md/glam/ru/. Preț șablon: $49. Cumpără: https://stan.store/devhubmd/p/site-pentru-makeup-i-mirese--bordo-glam
-- [Soft lash — Gene și sprâncene](https://salon.devhub.md/lash/): Site pentru studio de gene și sprâncene: demo Soft lash. Versiune rusă: https://salon.devhub.md/lash/ru/. Preț șablon: la cerere. Cumpără: https://stan.store/devhubmd
+- [Soft lash — Gene și sprâncene](https://salon.devhub.md/lash/): Site pentru studio de gene și sprâncene: demo Soft lash. Versiune rusă: https://salon.devhub.md/lash/ru/. Preț șablon: $49. Cumpără: https://stan.store/devhubmd/p/site-pentru-gene-i-sprncene--soft-lash
 
 ## Servicii
 
