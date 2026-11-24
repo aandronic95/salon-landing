@@ -91,6 +91,22 @@
       "screenshot": "https://salon.devhub.md/shots/lash-desktop.jpg",
       "buy": "https://stan.store/devhubmd/p/site-pentru-gene-i-sprncene--soft-lash",
       "price_usd": 49
+    },
+    {
+      "id": "vintage",
+      "name": "Vintage barber",
+      "category": "barber",
+      "niche": {
+        "ro": "Barbershop",
+        "ru": "Барбершоп"
+      },
+      "demo": {
+        "ro": "https://salon.devhub.md/vintage/",
+        "ru": "https://salon.devhub.md/vintage/ru/"
+      },
+      "screenshot": "https://salon.devhub.md/shots/vintage-desktop.jpg",
+      "buy": "https://stan.store/devhubmd",
+      "price_usd": 49
     }
   ]
 }
