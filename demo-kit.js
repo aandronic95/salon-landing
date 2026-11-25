@@ -18,7 +18,7 @@
   var parts = location.pathname.split('/').filter(Boolean);
   var cur = parts[0];
   var lang = parts[1] === 'ru' || parts[1] === 'it' ? parts[1] : 'ro';
-  var pre = lang === 'ro' ? '/' : '/' + lang + '/';
+  var pre = lang === 'ru' ? '/ru/' : '/'; // pagina principală există în RO și RU
   var sub = lang === 'ro' ? '' : lang + '/';
   var t = T[lang];
   var theme = THEMES.filter(function (x) { return x.id === cur; })[0] || THEMES[0];
