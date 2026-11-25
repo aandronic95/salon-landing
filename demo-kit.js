@@ -8,6 +8,7 @@
     { id: 'glam', name: 'Bordo glam', ro: 'Make-up', ru: 'Макияж', it: 'Make-up', buy: STORE + '/p/site-pentru-makeup-i-mirese--bordo-glam' },
     { id: 'beton', name: 'Beton barber', ro: 'Barbershop', ru: 'Барбершоп', buy: STORE + '/p/site-pentru-barbershop-beton-barber' },
     { id: 'vintage', name: 'Vintage barber', ro: 'Barbershop', ru: 'Барбершоп', it: 'Barbiere', buy: STORE + '/p/site-pentru-barbershop--vintage-barber' },
+    { id: 'mint', name: 'Mint clinic', ro: 'Cosmetologie', ru: 'Косметология', buy: STORE + '/p/site-pentru-cosmetologie-mint-clinic' },
     { id: 'lash', name: 'Soft lash', ro: 'Gene și sprâncene', ru: 'Ресницы и брови', it: 'Ciglia e sopracciglia', buy: STORE + '/p/site-pentru-gene-i-sprncene--soft-lash' }
   ];
   var T = {
