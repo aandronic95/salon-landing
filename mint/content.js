@@ -16,7 +16,7 @@
 
 window.SITE = {
   /* ── 1. Date generale ─────────────────────────────────────── */
-  languages: ['ro', 'ru'],
+  languages: ['ro', 'ru', 'it'],
   url: 'https://salon.devhub.md/mint',          // adresa site-ului, fără / la final
   currency: { ro: 'lei', ru: 'лей' },
 

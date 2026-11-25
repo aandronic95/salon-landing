@@ -6,7 +6,7 @@
   'use strict'
   var S = window.SITE
   var html = document.documentElement
-  var lang = html.lang === 'ru' ? 'ru' : 'ro'
+  var lang = html.lang === 'ru' || html.lang === 'it' ? html.lang : 'ro'
   var base = html.getAttribute('data-base') || ''
   var app = document.getElementById('app')
   if (!S || !app) return

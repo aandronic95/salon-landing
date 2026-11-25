@@ -91,11 +91,13 @@
       "category": "cosmetologie",
       "niche": {
         "ro": "Cosmetologie",
-        "ru": "Косметология"
+        "ru": "Косметология",
+        "it": "Estetica"
       },
       "demo": {
         "ro": "https://salon.devhub.md/mint/",
-        "ru": "https://salon.devhub.md/mint/ru/"
+        "ru": "https://salon.devhub.md/mint/ru/",
+        "it": "https://salon.devhub.md/mint/it/"
       },
       "screenshot": "https://salon.devhub.md/shots/mint-desktop.jpg",
       "buy": "https://stan.store/devhubmd/p/site-pentru-cosmetologie-mint-clinic",
