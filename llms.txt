@@ -19,6 +19,27 @@
 - [Beton barber — Barbershop](https://salon.devhub.md/beton/): Site pentru barbershop în stil industrial: demo Beton barber. Versiune rusă: https://salon.devhub.md/beton/ru/. Preț șablon: $49. Cumpără: https://stan.store/devhubmd/p/site-pentru-barbershop-beton-barber
 - [Vintage barber — Barbershop](https://salon.devhub.md/vintage/): Site pentru frizerie vintage: demo Vintage barber. Versiune rusă: https://salon.devhub.md/vintage/ru/. Versiune italiană: https://salon.devhub.md/vintage/it/. Preț șablon: $49. Cumpără: https://stan.store/devhubmd/p/site-pentru-barbershop--vintage-barber
 
+## Pagini pe nișe
+
+- [Site pentru salon de coafură](https://salon.devhub.md/site-pentru-salon-de-coafura/)
+- [Site pentru frizerie și barbershop](https://salon.devhub.md/site-pentru-frizerie/)
+- [Site pentru salon de unghii](https://salon.devhub.md/site-pentru-salon-de-unghii/)
+- [Site pentru make-up artist](https://salon.devhub.md/site-pentru-make-up-artist/)
+- [Site pentru studio de gene și sprâncene](https://salon.devhub.md/site-pentru-gene-si-sprancene/)
+- [Site pentru cabinet de cosmetologie](https://salon.devhub.md/site-pentru-cosmetologie/)
+- [Сайт для салона причёсок](https://salon.devhub.md/ru/sayt-dlya-salona-prichesok/)
+- [Сайт для барбершопа и мужской парикмахерской](https://salon.devhub.md/ru/sayt-dlya-barbershopa/)
+- [Сайт для студии маникюра](https://salon.devhub.md/ru/sayt-dlya-studii-manikyura/)
+- [Сайт для визажиста](https://salon.devhub.md/ru/sayt-dlya-vizazhista/)
+- [Сайт для студии ресниц и бровей](https://salon.devhub.md/ru/sayt-dlya-lashmakera/)
+- [Сайт для косметолога](https://salon.devhub.md/ru/sayt-dlya-kosmetologa/)
+- [Sito per parrucchiere](https://salon.devhub.md/it/sito-per-parrucchiere/)
+- [Sito per barbiere e barber shop](https://salon.devhub.md/it/sito-per-barbiere/)
+- [Sito per nail studio](https://salon.devhub.md/it/sito-per-centro-unghie/)
+- [Sito per make-up artist](https://salon.devhub.md/it/sito-per-truccatrice/)
+- [Sito per extension ciglia e sopracciglia](https://salon.devhub.md/it/sito-per-extension-ciglia/)
+- [Sito per centro estetico](https://salon.devhub.md/it/sito-per-centro-estetico/)
+
 ## Servicii
 
 - Instalare site + domeniu propriu, personalizare completă, traducere RU, mentenanță lunară: https://stan.store/devhubmd
