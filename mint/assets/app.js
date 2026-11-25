@@ -120,7 +120,7 @@
     var io = new IntersectionObserver(function (es) {
       es.forEach(function (e) { if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target) } })
     }, { rootMargin: '0px 0px -10% 0px' })
-    $$('.section .h2, .trust__item, .treat, .person, .gallery__item, .pack, .review, .timeline li, .prep__item, .faq details').forEach(function (el, i) {
+    $$('.section .h2, .trust__item, .person, .gallery__item, .pack, .review, .timeline li, .prep__item, .faq details').forEach(function (el, i) {
       el.classList.add('rv'); el.style.setProperty('--d', (i % 4) * 70 + 'ms'); io.observe(el)
     })
   }

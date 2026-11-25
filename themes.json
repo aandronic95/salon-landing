@@ -86,6 +86,22 @@
       "price_usd": 49
     },
     {
+      "id": "mint",
+      "name": "Mint clinic",
+      "category": "cosmetologie",
+      "niche": {
+        "ro": "Cosmetologie",
+        "ru": "Косметология"
+      },
+      "demo": {
+        "ro": "https://salon.devhub.md/mint/",
+        "ru": "https://salon.devhub.md/mint/ru/"
+      },
+      "screenshot": "https://salon.devhub.md/shots/mint-desktop.jpg",
+      "buy": "https://stan.store/devhubmd/p/site-pentru-cosmetologie-mint-clinic",
+      "price_usd": 49
+    },
+    {
       "id": "lash",
       "name": "Soft lash",
       "category": "gene",
