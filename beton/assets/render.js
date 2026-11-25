@@ -103,10 +103,10 @@
       var t = S.team
       return '<section class="section" id="echipa"><div class="wrap">' + label('team', S.nav.team) +
         '<h2 class="h2">' + T(t.title) + '</h2><div class="team">' + t.people.map(function (p) {
-          return '<article class="person"><div class="person__img"><img class="' + bw().trim() + '" src="' + esc(img(p.photo)) + '" alt="' + esc(p.name) + '" loading="lazy" width="700" height="875">' +
+          return '<article class="person"><div class="person__img"><img class="' + bw().trim() + '" src="' + esc(img(p.photo)) + '" alt="' + T(p.name) + '" loading="lazy" width="700" height="875">' +
             (p.years ? '<span class="person__years"><b>' + esc(p.years) + '</b> ' + T(t.yearsLabel) + '</span>' : '') + '</div>' +
-            '<h3 class="person__name">' + esc(p.name) + '</h3><p class="person__role">' + T(p.role) + '</p>' +
-            '<a class="link" href="' + esc(book) + '" target="_blank" rel="noopener">' + T(t.book) + ' ' + esc(p.name) + ' →</a>' +
+            '<h3 class="person__name">' + T(p.name) + '</h3><p class="person__role">' + T(p.role) + '</p>' +
+            '<a class="link" href="' + esc(book) + '" target="_blank" rel="noopener">' + T(t.book) + ' ' + T(p.name) + ' →</a>' +
             (p.instagram ? ' <a class="link link--muted" href="' + esc(p.instagram) + '" target="_blank" rel="noopener">Instagram</a>' : '') +
             '</article>'
         }).join('') + '</div></div></section>'

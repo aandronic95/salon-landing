@@ -21,6 +21,11 @@
   var d = document.querySelector('meta[name="description"]')
   if (d) d.setAttribute('content', h.description)
   html.classList.add('ready')
+  /* Linkurile cu #secțiune: pagina e reconstruită, așa că derulăm noi la ea */
+  if (location.hash.length > 1) {
+    var target = document.getElementById(decodeURIComponent(location.hash.slice(1)))
+    if (target) requestAnimationFrame(function () { target.scrollIntoView() })
+  }
 
   var $ = function (s, r) { return (r || document).querySelector(s) }
   var $$ = function (s, r) { return Array.prototype.slice.call((r || document).querySelectorAll(s)) }

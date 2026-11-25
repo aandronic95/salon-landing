@@ -83,8 +83,8 @@ window.SITE = {
       'https://images.unsplash.com/photo-1532710093739-9470acff878f?auto=format&fit=crop&w=900&q=80',
     ],
     /* Înainte și după: două poze ale aceluiași client, din același unghi */
-    before: 'https://images.unsplash.com/photo-1573586927918-3e6476da8395?auto=format&fit=crop&w=1100&q=80',
-    after: 'https://images.unsplash.com/photo-1573586927918-3e6476da8395?auto=format&fit=crop&w=1100&q=80',
+    before: 'https://images.unsplash.com/photo-1635273051839-003bf06a8751?auto=format&fit=crop&w=1100&q=80',
+    after: 'https://images.unsplash.com/photo-1635273051839-003bf06a8751?auto=format&fit=crop&w=1100&q=80',
   },
 
   /* ── 5. Ordinea secțiunilor ───────────────────────────────── */
@@ -177,9 +177,9 @@ window.SITE = {
     title: { ro: 'Echipa', ru: 'Команда' },
     book: { ro: 'Programează-te la', ru: 'Записаться к' },
     people: [
-      { name: 'Andrei', role: { ro: 'Fondator · fade și design', ru: 'Основатель · фейды и узоры' }, years: '9', photo: 'https://images.unsplash.com/photo-1619233543112-fe382ff3693d?auto=format&fit=crop&w=700&q=80', instagram: '' },
-      { name: 'Victor', role: { ro: 'Barbă și ras cu briciul', ru: 'Борода и бритьё' }, years: '6', photo: 'https://images.unsplash.com/photo-1582893561942-d61adcb2e534?auto=format&fit=crop&w=700&q=80', instagram: '' },
-      { name: 'Mihai', role: { ro: 'Tunsori clasice și copii', ru: 'Классика и детские стрижки' }, years: '4', photo: 'https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=700&q=80', instagram: '' },
+      { name: { ro: 'Andrei', ru: 'Андрей' }, role: { ro: 'Fondator · fade și design', ru: 'Основатель · фейды и узоры' }, years: '9', photo: 'https://images.unsplash.com/photo-1619233543112-fe382ff3693d?auto=format&fit=crop&w=700&q=80', instagram: '' },
+      { name: { ro: 'Victor', ru: 'Виктор' }, role: { ro: 'Barbă și ras cu briciul', ru: 'Борода и бритьё' }, years: '6', photo: 'https://images.unsplash.com/photo-1582893561942-d61adcb2e534?auto=format&fit=crop&w=700&q=80', instagram: '' },
+      { name: { ro: 'Mihai', ru: 'Михай' }, role: { ro: 'Tunsori clasice și copii', ru: 'Классика и детские стрижки' }, years: '4', photo: 'https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=700&q=80', instagram: '' },
     ],
     yearsLabel: { ro: 'ani de experiență', ru: 'лет опыта' },
   },
@@ -216,9 +216,9 @@ window.SITE = {
     label: { ro: 'recenzii pe Google', ru: 'отзывов в Google' },
     link: '',                         // linkul spre recenziile tale de pe Google, sau ''
     items: [
-      { name: 'Alexandru', text: { ro: 'Cel mai curat fade din oraș. Și nu stai o oră să aștepți, intri la fix.', ru: 'Самый чистый фейд в городе. И не ждёшь час, заходишь ровно ко времени.' } },
-      { name: 'Ion', text: { ro: 'Vin cu fiul o dată la trei săptămâni. Victor are răbdare și cu cei mici.', ru: 'Хожу с сыном раз в три недели. У Виктора есть терпение и для малышей.' } },
-      { name: 'Dmitri', text: { ro: 'Rasul cu prosop cald merită fiecare leu. Am ieșit ca nou.', ru: 'Бритьё с горячим полотенцем стоит каждого лея. Вышел как новый.' } },
+      { name: { ro: 'Alexandru', ru: 'Александр' }, text: { ro: 'Cel mai curat fade din oraș. Și nu stai o oră să aștepți, intri la fix.', ru: 'Самый чистый фейд в городе. И не ждёшь час, заходишь ровно ко времени.' } },
+      { name: { ro: 'Ion', ru: 'Ион' }, text: { ro: 'Vin cu fiul o dată la trei săptămâni. Victor are răbdare și cu cei mici.', ru: 'Хожу с сыном раз в три недели. У Виктора есть терпение и для малышей.' } },
+      { name: { ro: 'Dmitri', ru: 'Дмитрий' }, text: { ro: 'Rasul cu prosop cald merită fiecare leu. Am ieșit ca nou.', ru: 'Бритьё с горячим полотенцем стоит каждого лея. Вышел как новый.' } },
     ],
   },
 

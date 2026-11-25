@@ -93,6 +93,22 @@
       "price_usd": 49
     },
     {
+      "id": "beton",
+      "name": "Beton barber",
+      "category": "barber",
+      "niche": {
+        "ro": "Barbershop",
+        "ru": "Барбершоп"
+      },
+      "demo": {
+        "ro": "https://salon.devhub.md/beton/",
+        "ru": "https://salon.devhub.md/beton/ru/"
+      },
+      "screenshot": "https://salon.devhub.md/shots/beton-desktop.jpg",
+      "buy": "https://stan.store/devhubmd/p/site-pentru-barbershop-beton-barber",
+      "price_usd": 49
+    },
+    {
       "id": "vintage",
       "name": "Vintage barber",
       "category": "barber",
