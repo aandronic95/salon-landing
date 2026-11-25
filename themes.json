@@ -4,7 +4,8 @@
   "store": "https://stan.store/devhubmd",
   "languages": [
     "ro",
-    "ru"
+    "ru",
+    "it"
   ],
   "bonus": {
     "ro": "Programări online pe rezervaora.md, configurate și legate de site gratuit, la orice site cumpărat. Starter gratuit pentru totdeauna (1 specialist).",
@@ -18,11 +19,13 @@
       "category": "par",
       "niche": {
         "ro": "Coafură",
-        "ru": "Причёски"
+        "ru": "Причёски",
+        "it": "Parrucchiere"
       },
       "demo": {
         "ro": "https://salon.devhub.md/nude/",
-        "ru": "https://salon.devhub.md/nude/ru/"
+        "ru": "https://salon.devhub.md/nude/ru/",
+        "it": "https://salon.devhub.md/nude/it/"
       },
       "screenshot": "https://salon.devhub.md/shots/nude-desktop.jpg",
       "buy": "https://stan.store/devhubmd/p/site-pentru-salon-de-coafur--editorial-nude",
@@ -34,11 +37,13 @@
       "category": "barber",
       "niche": {
         "ro": "Barbershop",
-        "ru": "Барбершоп"
+        "ru": "Барбершоп",
+        "it": "Barbiere"
       },
       "demo": {
         "ro": "https://salon.devhub.md/noir/",
-        "ru": "https://salon.devhub.md/noir/ru/"
+        "ru": "https://salon.devhub.md/noir/ru/",
+        "it": "https://salon.devhub.md/noir/it/"
       },
       "screenshot": "https://salon.devhub.md/shots/noir-desktop.jpg",
       "buy": "https://stan.store/devhubmd/p/site-pentru-frizerie--noir-barber",
@@ -50,11 +55,13 @@
       "category": "unghii",
       "niche": {
         "ro": "Unghii",
-        "ru": "Ногти"
+        "ru": "Ногти",
+        "it": "Unghie"
       },
       "demo": {
         "ro": "https://salon.devhub.md/pop/",
-        "ru": "https://salon.devhub.md/pop/ru/"
+        "ru": "https://salon.devhub.md/pop/ru/",
+        "it": "https://salon.devhub.md/pop/it/"
       },
       "screenshot": "https://salon.devhub.md/shots/pop-desktop.jpg",
       "buy": "https://stan.store/devhubmd/p/site-pentru-studio-de-unghii--color-pop",
@@ -66,11 +73,13 @@
       "category": "makeup",
       "niche": {
         "ro": "Make-up",
-        "ru": "Макияж"
+        "ru": "Макияж",
+        "it": "Make-up"
       },
       "demo": {
         "ro": "https://salon.devhub.md/glam/",
-        "ru": "https://salon.devhub.md/glam/ru/"
+        "ru": "https://salon.devhub.md/glam/ru/",
+        "it": "https://salon.devhub.md/glam/it/"
       },
       "screenshot": "https://salon.devhub.md/shots/glam-desktop.jpg",
       "buy": "https://stan.store/devhubmd/p/site-pentru-makeup-i-mirese--bordo-glam",
@@ -82,11 +91,13 @@
       "category": "gene",
       "niche": {
         "ro": "Gene și sprâncene",
-        "ru": "Ресницы и брови"
+        "ru": "Ресницы и брови",
+        "it": "Ciglia e sopracciglia"
       },
       "demo": {
         "ro": "https://salon.devhub.md/lash/",
-        "ru": "https://salon.devhub.md/lash/ru/"
+        "ru": "https://salon.devhub.md/lash/ru/",
+        "it": "https://salon.devhub.md/lash/it/"
       },
       "screenshot": "https://salon.devhub.md/shots/lash-desktop.jpg",
       "buy": "https://stan.store/devhubmd/p/site-pentru-gene-i-sprncene--soft-lash",
@@ -114,11 +125,13 @@
       "category": "barber",
       "niche": {
         "ro": "Barbershop",
-        "ru": "Барбершоп"
+        "ru": "Барбершоп",
+        "it": "Barbiere"
       },
       "demo": {
         "ro": "https://salon.devhub.md/vintage/",
-        "ru": "https://salon.devhub.md/vintage/ru/"
+        "ru": "https://salon.devhub.md/vintage/ru/",
+        "it": "https://salon.devhub.md/vintage/it/"
       },
       "screenshot": "https://salon.devhub.md/shots/vintage-desktop.jpg",
       "buy": "https://stan.store/devhubmd/p/site-pentru-barbershop--vintage-barber",

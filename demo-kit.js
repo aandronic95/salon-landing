@@ -2,21 +2,24 @@
 (function () {
   var STORE = 'https://stan.store/devhubmd';
   var THEMES = [
-    { id: 'nude', name: 'Editorial nude', ro: 'Coafură', ru: 'Причёски', buy: STORE + '/p/site-pentru-salon-de-coafur--editorial-nude' },
-    { id: 'noir', name: 'Noir barber', ro: 'Barbershop', ru: 'Барбершоп', buy: STORE + '/p/site-pentru-frizerie--noir-barber' },
-    { id: 'pop', name: 'Color pop', ro: 'Unghii', ru: 'Ногти', buy: STORE + '/p/site-pentru-studio-de-unghii--color-pop' },
-    { id: 'glam', name: 'Bordo glam', ro: 'Make-up', ru: 'Макияж', buy: STORE + '/p/site-pentru-makeup-i-mirese--bordo-glam' },
+    { id: 'nude', name: 'Editorial nude', ro: 'Coafură', ru: 'Причёски', it: 'Parrucchiere', buy: STORE + '/p/site-pentru-salon-de-coafur--editorial-nude' },
+    { id: 'noir', name: 'Noir barber', ro: 'Barbershop', ru: 'Барбершоп', it: 'Barbiere', buy: STORE + '/p/site-pentru-frizerie--noir-barber' },
+    { id: 'pop', name: 'Color pop', ro: 'Unghii', ru: 'Ногти', it: 'Unghie', buy: STORE + '/p/site-pentru-studio-de-unghii--color-pop' },
+    { id: 'glam', name: 'Bordo glam', ro: 'Make-up', ru: 'Макияж', it: 'Make-up', buy: STORE + '/p/site-pentru-makeup-i-mirese--bordo-glam' },
     { id: 'beton', name: 'Beton barber', ro: 'Barbershop', ru: 'Барбершоп', buy: STORE + '/p/site-pentru-barbershop-beton-barber' },
-    { id: 'vintage', name: 'Vintage barber', ro: 'Barbershop', ru: 'Барбершоп', buy: STORE + '/p/site-pentru-barbershop--vintage-barber' },
-    { id: 'lash', name: 'Soft lash', ro: 'Gene și sprâncene', ru: 'Ресницы и брови', buy: STORE + '/p/site-pentru-gene-i-sprncene--soft-lash' }
+    { id: 'vintage', name: 'Vintage barber', ro: 'Barbershop', ru: 'Барбершоп', it: 'Barbiere', buy: STORE + '/p/site-pentru-barbershop--vintage-barber' },
+    { id: 'lash', name: 'Soft lash', ro: 'Gene și sprâncene', ru: 'Ресницы и брови', it: 'Ciglia e sopracciglia', buy: STORE + '/p/site-pentru-gene-i-sprncene--soft-lash' }
   ];
   var T = {
     ro: { all: 'Toate temele', demo: 'Demo', bonus: 'Bonus: programări online gratuite', buy: 'Cumpără acest site', buyShort: 'Cumpără', wm: 'DEMO · Agendă Plină', nav: 'Alte teme demo' },
-    ru: { all: 'Все темы', demo: 'Демо', bonus: 'Бонус: онлайн-запись бесплатно', buy: 'Купить этот сайт', buyShort: 'Купить', wm: 'DEMO · Agendă Plină', nav: 'Другие демо-темы' }
+    ru: { all: 'Все темы', demo: 'Демо', bonus: 'Бонус: онлайн-запись бесплатно', buy: 'Купить этот сайт', buyShort: 'Купить', wm: 'DEMO · Agendă Plină', nav: 'Другие демо-темы' },
+    it: { all: 'Tutti i temi', demo: 'Demo', bonus: 'Bonus', buy: 'Acquista questo sito', buyShort: 'Acquista', wm: 'DEMO · Agendă Plină', nav: 'Altri temi demo' }
   };
   var parts = location.pathname.split('/').filter(Boolean);
   var cur = parts[0];
-  var lang = parts[1] === 'ru' ? 'ru' : 'ro';
+  var lang = parts[1] === 'ru' || parts[1] === 'it' ? parts[1] : 'ro';
+  var pre = lang === 'ro' ? '/' : '/' + lang + '/';
+  var sub = lang === 'ro' ? '' : lang + '/';
   var t = T[lang];
   var theme = THEMES.filter(function (x) { return x.id === cur; })[0] || THEMES[0];
   var H = 44;
@@ -48,17 +51,17 @@
     if (document.querySelector('.dk-bar')) return;
     document.head.appendChild(el('style', { id: 'dk-style' }, css));
     var bar = el('nav', { 'class': 'dk-bar', 'aria-label': t.nav });
-    bar.appendChild(el('a', { 'class': 'dk-home', href: lang === 'ru' ? '/ru/' : '/', title: t.all, 'aria-label': t.all },
+    bar.appendChild(el('a', { 'class': 'dk-home', href: pre, title: t.all, 'aria-label': t.all },
       '<img src="/icon.svg" width="22" height="22" alt=""><span><b>salon</b>.devhub.md</span>'));
     bar.appendChild(el('span', { 'class': 'dk-tag' }, t.demo));
     var list = el('div', { 'class': 'dk-themes' });
     THEMES.forEach(function (x) {
-      var a = el('a', { 'class': 'dk-pill', href: '/' + x.id + '/' + (lang === 'ru' ? 'ru/' : '') }, x.name + ' <small>' + x[lang] + '</small>');
+      var a = el('a', { 'class': 'dk-pill', href: '/' + x.id + '/' + (x[lang] ? sub : '') }, x.name + ' <small>' + (x[lang] || x.ro) + '</small>');
       if (x.id === theme.id) a.setAttribute('aria-current', 'page');
       list.appendChild(a);
     });
     bar.appendChild(list);
-    bar.appendChild(el('a', { 'class': 'dk-bonus', href: (lang === 'ru' ? '/ru/' : '/') + '#bonus' }, '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="vertical-align:-2px;margin-right:5px"><rect x="3" y="8" width="18" height="4" rx="1"/><path d="M12 8v13M19 12v7a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2v-7M7.5 8a2.5 2.5 0 0 1 0-5C11 3 12 8 12 8s1-5 4.5-5a2.5 2.5 0 0 1 0 5"/></svg>' + t.bonus));
+    if (lang !== 'it') bar.appendChild(el('a', { 'class': 'dk-bonus', href: pre + '#bonus' }, '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="vertical-align:-2px;margin-right:5px"><rect x="3" y="8" width="18" height="4" rx="1"/><path d="M12 8v13M19 12v7a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2v-7M7.5 8a2.5 2.5 0 0 1 0-5C11 3 12 8 12 8s1-5 4.5-5a2.5 2.5 0 0 1 0 5"/></svg>' + t.bonus));
     bar.appendChild(el('a', { 'class': 'dk-buy', href: theme.buy, target: '_blank', rel: 'noopener' },
       '<span class="dk-long">' + t.buy + '</span><span class="dk-short">' + t.buyShort + '</span> →'));
     document.body.insertBefore(bar, document.body.firstChild);
