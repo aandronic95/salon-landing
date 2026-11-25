@@ -6,6 +6,7 @@
     { id: 'noir', name: 'Noir barber', ro: 'Barbershop', ru: 'Барбершоп', buy: STORE + '/p/site-pentru-frizerie--noir-barber' },
     { id: 'pop', name: 'Color pop', ro: 'Unghii', ru: 'Ногти', buy: STORE + '/p/site-pentru-studio-de-unghii--color-pop' },
     { id: 'glam', name: 'Bordo glam', ro: 'Make-up', ru: 'Макияж', buy: STORE + '/p/site-pentru-makeup-i-mirese--bordo-glam' },
+    { id: 'beton', name: 'Beton barber', ro: 'Barbershop', ru: 'Барбершоп', buy: STORE + '/p/site-pentru-barbershop--beton-barber' },
     { id: 'vintage', name: 'Vintage barber', ro: 'Barbershop', ru: 'Барбершоп', buy: STORE + '/p/site-pentru-barbershop--vintage-barber' },
     { id: 'lash', name: 'Soft lash', ro: 'Gene și sprâncene', ru: 'Ресницы и брови', buy: STORE + '/p/site-pentru-gene-i-sprncene--soft-lash' }
   ];
